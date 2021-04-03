@@ -1,0 +1,85 @@
+.ml {
+    margin-left: 8px !important;
+}
+.ml-sm {
+    margin-left: 5px !important;
+}
+.mr {
+    margin-right: 8px !important;
+}
+.mt {
+    margin-top: 8px !important;
+}
+.mb {
+    margin-bottom: 8px !important;
+}
+.pl {
+    padding-left: 8px !important;
+}
+.pr {
+    padding-right: 8px !important;
+}
+.pt {
+    padding-top: 8px !important;
+}
+.pb {
+    padding-bottom: 8px !important;
+}
+.mb-sm {
+    margin-bottom: 4px;
+}
+.fw {
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.pageLayout {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.FormWrapper {
+    padding: 60px 20px;
+    max-width: 350px;
+    margin: 20px auto;
+}
+.PageProductSection {
+    border-left: 1px solid black;
+    min-height: 100vh;
+    background: url('/img/download.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    -webkit-animation: backgroundScroll 1500s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 1500s linear 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes backgroundScroll {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -48000px 0px;
+    }
+}
+.login-form {
+    max-width: 300px;
+}
